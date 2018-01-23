@@ -22,11 +22,11 @@ Relevant literature related to the collection and usage of crowdsourced data.
 
 ## Contents
 - [On the Ethics of Crowdsourced Resource](#on-the-ethics-of-crowdsourced-research)
+- [Internet-based crowdsourcing and research ethics](#internet-based-crowdsourcing-and-research-ethics)
 - [Maximizing Benefits from Crowdsourced Data](#maximizing-benefits-from-crowdsourced-data)
 - [Comparing the Quality of Crowdsourced Data Contributed by Expert and Non-Experts](#comparing-the-quality-of-crowdsourced-data-contributed-by-expert-and-non-experts)
 - [Lessons learned from the design, implementation, and management of a smartphone-based crowdsourcing system](#lessons-learned-from-the-design-implementation-and-management-of-a-smartphone-based-crowdsourcing-system)
 - [Eliminating Spammers and Ranking Annotators for Crowdsourced Labeling Tasks](#eliminating-spammers-and-ranking-annotators-for-crowdsourced-labeling-tasks)
-- [Internet-based crowdsourcing and research ethics](#internet-based-crowdsourcing-and-research-ethics)
 
 
 ### On the Ethics of Crowdsourced Research
@@ -66,6 +66,12 @@ Finally the authors of the paper talk about some of the challenges of crowdsourc
 
 ### Comparing the Quality of Crowdsourced Data Contributed by Expert and Non-Experts
 **[Linda See, Alexis Comber et al, Public Library of Science (PLOS), 2013](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0069958){:target="_blank"}**
+
+This study takes a look at the quality of crowdsourced data used to determine human impacts on land cover, comparing between experts and non-experts. The study involved two measures, the degree of the human impact on a certain land area, and the type of land cover (e.g. shrub cover, tree cover, etc). 
+
+The authors found that when it comes to determining whether there has been a discernible human impact on a land area, the level of expertise does not make a significant difference. However, when it comes to determining the type of land cover, experts performed significantly better than their non-expert counterparts. 
+
+The authors suggest that a potential way to make bridge the gap would be to offer additional training and assistance for the non-experts in determining the type of land cover. This has implications for my project I think, since although determining land cover is a more complex and skilled task, it may be advantageous to provide some key factors that a restroom should have that might influence the rating. Rather than simply being a very open-ended "how would you rate this restroom," maybe ask reviewers to consider different factors such as "how would you rate the cleanliness of the restroom, scale of 1 to 10". 
 
 
 [Contents &#x21a9;&#xfe0e;](#contents)

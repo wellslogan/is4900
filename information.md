@@ -29,7 +29,7 @@ The RR site consists of two main components: the API and the front-end site.
 ### User Authentication
 Authentication will be implemented using [Firebase](https://github.com/firebase/firebaseui-web){:target="_blank"} with Google as the primary identity provider.
 
-### API
+### REST API
 The API for the RR site will use dotnet core 2.0. Data storage will utilize a PostgreSQL database. A preliminary mapping of API endpoints is shown below:
 
 | Route                     | HTTP Method             | POST Params                                  |   
@@ -55,6 +55,23 @@ The actual RR website will be built with React.
 | description    | string                     |
 | location       | Object { xcoord , ycoord } |
 
+Schema:
+```json
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "Room",
+  "uid": { "type": "string" },
+  "name": { "type": "string" },
+  "description": { "type": "string" },
+  "location": {
+    "type": "object",
+    "latitude": { "type": "number" },
+    "longitutde": { "type": "number" }
+  }
+}
+```
+
 Example:
 ```js
 {
@@ -62,8 +79,8 @@ Example:
   name: "Snell Library 4th Floor Men's",
   descriptions: "",
   location: {
-    xcoord: "1.09897245",
-    ycoord: "0.94834234"
+    latitude: "1.09897245",
+    longitude: "0.94834234"
   }
 }
 ```
@@ -78,6 +95,20 @@ Example:
 | description    | string             |
 | roomuid        | int                |
 | authoruid      | int                |
+
+Schema: 
+```json
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "review",
+  "type": "object",
+  "uid": { "type": "number" },
+  "rating": { "type": "number" },
+  "description": { "type": "string" },
+  "roomuid": { "type": "number" },
+  "authoruid": { "type": "number" },
+}
+```
 
 Example:
 ```js
