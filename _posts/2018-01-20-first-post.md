@@ -28,4 +28,4 @@ tags: [project, update]
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
 
-The only purpose of this post is to signify that I've got this portfolio site up and running, live at [is4900.wellslogan.com](https://is4900.wellslogan.com). You can also [view the source on GitHub](https://github.com/wellslogan/is4900).
+The only purpose of this post is to signify that I've got this portfolio site up and running, live at [is4900.wellslogan.com](https://is4900.wellslogan.com). You can also [view the source on GitHub](https://github.com/wellslogan/is4900){:target="_blank"}.
