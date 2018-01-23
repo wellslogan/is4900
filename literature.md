@@ -18,5 +18,64 @@ hide_description: true
 menu: true
 ---
 
-Relevant literature and a brief discussion about each will appear here.
+Relevant literature related to the collection and usage of crowdsourced data.
 
+## Contents
+- [On the Ethics of Crowdsourced Resource](#on-the-ethics-of-crowdsourced-research)
+- [Maximizing Benefits from Crowdsourced Data](#maximizing-benefits-from-crowdsourced-data)
+- [Comparing the Quality of Crowdsourced Data Contributed by Expert and Non-Experts](#comparing-the-quality-of-crowdsourced-data-contributed-by-expert-and-non-experts)
+- [Lessons learned from the design, implementation, and management of a smartphone-based crowdsourcing system](#lessons-learned-from-the-design-implementation-and-management-of-a-smartphone-based-crowdsourcing-system)
+- [Eliminating Spammers and Ranking Annotators for Crowdsourced Labeling Tasks](#eliminating-spammers-and-ranking-annotators-for-crowdsourced-labeling-tasks)
+- [Internet-based crowdsourcing and research ethics](#internet-based-crowdsourcing-and-research-ethics)
+
+
+### On the Ethics of Crowdsourced Research
+**[Vanessa Williams, Political Science & Politics, 2016](https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/on-the-ethics-of-crowdsourced-research/B1BDFB1111B416DD0B71540CD6E7D94F){:target="_blank"}**
+
+This source explores the ethics of the crowdsourcing platform Mechanical Turk (MTurk), an Amazon offering which allows users to complete simple tasks in exchange for a small amount of money per completion. The tasks in question can range from answering a market research question to more advanced tasks like transcribing audio or performing manual OCR (optical character recognition). 
+
+Williamson notes that since 2009 there has been a sharp uptick in articles on the digital library JSTOR which contain data sourced from MTurk, and that this trend seems to exist across different digital libraries as well. She does point out that while this data is considered "often more representative of the US population than in-person convenience samples" (qtd. in Williamson, 77), it might not be so simple - "About 80% of tasks on MTurk are completed by about 20% of participants, who spend more than 15 hours a week working on MTurk" (77). This means that there might be different ethical concerns when relying on the data on MTurk users - since such a significant portion of data is gathered from users who view the platform as essentially a part time job.
+
+Williamson conducted interviews with 49 MTurk users who responded to an initial question on MTurk itself. Many of the folks she spoke to "[reported] using the service as a major source of income" (78). The end results of her research - there are significant ethical concerns of using crowdsourced data from a source like Mechanical Turk, where many users simply use the site as a source of income instead of a more broad voluntary survey platform. 
+
+[Contents &#x21a9;&#xfe0e;](#contents)
+
+### Internet-based crowdsourcing and research ethics 
+**[Mark A. Graber and Abraham Graber, Journal of Medical Ethics, 2013](http://dx.doi.org/10.1136/medethics-2012-100798){:target="_blank"}**
+
+This article (referenced in the above article ["On the Ethics of Crowdsourced Research"](#on-the-ethics-of-crowdsourced-research)) investigates the ethics of crowdsourcing data while looking at the Foldit project, which has contributors play a video game-like piece of software where the goal is to solve various protein folding problems, in order to help develop computer algorithms to do the same. The authors call this type of game a "greme," referring to a combination of game and research tool. 
+
+The key point of this paper is that since the method by which crowdsourced data is collected is essentially a video game, there may be mechanisms at play that take advantage of the users by preying on an existing factor such as internet addiction - or that may simply cause an addiction to the "greme" itself. The authors do not conclude that such mechanisms are definitely involved in the collection of data, only that there is a possibility of them being involved. 
+
+Another question raised in the paper is whether the players of the "greme" - the folks who are providing the crucial data to the project - should be considered human subjects. The authors' argument is that because it is impossible to know whether a specific "greme" will have meaningful results ahead of creating it and collecting data, the particpants and contributors are essentially the subjects of an initial expirement - which means that they should be subject to an IRB. 
+
+The final conclusion of the authors is that the contributors of crowdsourced data is situations such as Foldit might in fact be subject to manipulation, making them human subjects, and making it so that in order to avoid any ethical breaches, IRB review must be required. 
+
+[Contents &#x21a9;&#xfe0e;](#contents)
+
+### Maximizing Benefits from Crowdsourced Data
+**[Geoffrey Barbier, Reza Zafarani et al, Computational and Mathematical Organization Theory, 2012](https://link.springer.com/article/10.1007/s10588-012-9121-2){:target="_blank"}**
+
+In this paper, crowdsourced data is typically not in a form that is immediately useful - take for example the kind of "data" you would get from a site like Yahoo Answers, which is one example they use, or Stack Overflow. Although this data is technically crowdsourced, there are still significant steps that need to be taken in order to get this data into a form that can be analyzed by software. The authors bring up four steps in processing the raw data - trust assessment (the trustworthiness of the data, considering the crowdsourcing platform), stop-word removal (removing "useless" words like "to" or "the"), vectorization (putting the data in a vector-tabular format), and feature extraction (converting the vector-tabular format to just tabular format). 
+
+The authors also look at data mining that uses crowdsourced data to power machine learning - where humans perform work analyzing data in order to better train a computer algorithm to do the same, by validating computer-driven results with human results. An example brought up here is the original CAPTCHA, where in additional to providing web forms with protection against computer submissions also assisted machine learning algorithms in the detection of human handwriting.
+
+Finally the authors of the paper talk about some of the challenges of crowdsourced data in general - filtering noise and dealing with junk or intentionally bogus information. They bring up a case of crowdsourcing relief efforts or crisis response, where after the initial processing is done on the data and it's in a somewhat usable form, there may still be areas where a human expert (say, on a particular region) would need to be brought in for further analysis. The bottom line - some denoising techniques are relatively easy, and apply to pretty much any raw data. But even once the data has been processed in this way, it may be necessary for more sophisticated techniques to be employed, techniques which require human analysis. 
+
+[Contents &#x21a9;&#xfe0e;](#contents)
+
+### Comparing the Quality of Crowdsourced Data Contributed by Expert and Non-Experts
+**[Linda See, Alexis Comber et al, Public Library of Science (PLOS), 2013](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0069958){:target="_blank"}**
+
+
+[Contents &#x21a9;&#xfe0e;](#contents)
+
+### Lessons learned from the design, implementation, and management of a smartphone-based crowdsourcing system
+**[Andriano Faggiani, Enrico Gregori et al, ACM, 2013](https://dl.acm.org/citation.cfm?id=2536717){:target="_blank"}**
+
+[Contents &#x21a9;&#xfe0e;](#contents)
+
+### Eliminating Spammers and Ranking Annotators for Crowdsourced Labeling Tasks
+**[Vikas Raykar and Shipeng Yu, Journal of Machine Learning Research, 2012](https://dl.acm.org/citation.cfm?id=2188401){:target="_blank"}**
+
+[Contents &#x21a9;&#xfe0e;](#contents)

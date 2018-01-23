@@ -23,13 +23,12 @@ Key milestones and dates:
 | Milestone                                                 | Effort[^1] | Date       |
 |:----------------------------------------------------------|:-----------|:-----------|
 | This site live                                            | 3          | 1/22/2018  |
-| Information & Plan sections done                          | 3          | 1/23/2018  |
-| Literature section done                                   | 5          | 1/26/2018  |
-| Bathroom Review API initial development complete          | 8          | 1/30/2018  |
-| BR front end site intial development complete             | 5          | 2/02/2018  |
-| BR site is live and operational                           | 3          | 2/05/2018  |
+| Information, Plan, Literature sections done               | 3          | 1/26/2018  |
+| Restroom Review API initial development complete          | 8          | 2/02/2018  |
+| RR front end site intial development complete             | 5          | 2/05/2018  |
+| RR site is live and operational                           | 3          | 2/08/2018  |
 
 {:.stretch-table}
 
-[^1]: Using a Fibonacci scale (1, 2, 3, 5, 8, 13, ...)
+[^1]: Using a Fibonacci scale (1, 2, 3, 5, 8, ...)
 
