@@ -32,14 +32,14 @@ Authentication will be implemented using [Firebase](https://github.com/firebase/
 ### REST API
 The API for the RR site will use dotnet core 2.0. Data storage will utilize a PostgreSQL database. A preliminary mapping of API endpoints is shown below:
 
-| Route                     | HTTP Method             | POST Params                                  |   
-|:--------------------------|:------------------------|:---------------------------------------------|
-|`/rooms/`                  | GET                     | -                                            |   
-|`/rooms/:id`               | GET                     | -                                            |   
-|`/rooms/add`               | GET                     | -                                            |   
-|`/rooms/submit`            | POST                    | [Room](#data-model-room)                     |   
-|`/reviews/:id`             | GET                     | -                                            |   
-|`/reviews/submit`          | POST                    | [Review](#data-model-review)                 |   
+| Route                              | HTTP Method             | POST Params                          |   
+|:-----------------------------------|:------------------------|:-------------------------------------|
+|`/rooms/`                           | GET                     | -                                    |   
+|`/rooms/{id}`                       | GET                     | -                                    |   
+|`/rooms/add`                        | GET                     | -                                    |   
+|`/rooms/submit`                     | POST                    | [Room](#data-model-room)             |   
+|`/rooms/{id}/reviews`               | GET                     | -                                    |   
+|`/rooms/{id}/reviews`               | POST                    | [Review](#data-model-review)         |   
 
 ### Front-end Application
 The actual RR website will be built with React.
@@ -48,12 +48,12 @@ The actual RR website will be built with React.
 #### <a id="data-model-room"></a>Room
 <hr/>
 
-| Field          | Type                       |
-|:---------------|:---------------------------|
-| uid            | int                        |
-| name           | string                     |
-| description    | string                     |
-| location       | Object { xcoord , ycoord } |
+| Field          | Type                            |
+|:---------------|:--------------------------------|
+| uid            | int                             |
+| name           | string                          |
+| description    | string                          |
+| location       | Object { latitude , longitude } |
 
 Schema:
 ```json
@@ -61,7 +61,7 @@ Schema:
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
   "title": "Room",
-  "uid": { "type": "string" },
+  "uid": { "type": "number" },
   "name": { "type": "string" },
   "description": { "type": "string" },
   "location": {
