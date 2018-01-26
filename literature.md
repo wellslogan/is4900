@@ -16,6 +16,8 @@ hide_description: true
 
 # Setting `menu` will generate an entry in the sidebar.
 menu: true
+
+order: 4
 ---
 
 Relevant literature related to the collection and usage of crowdsourced data.

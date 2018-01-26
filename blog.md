@@ -4,5 +4,6 @@
 # To create links to social media sites, check out `_data/authors.yml`!
 redirect_to: /
 title: Blog
-menu: false
+menu: true
+order: 1
 ---
