@@ -20,28 +20,44 @@ menu: true
 order: 2
 ---
 ## Project Description
+<p class="message">
+<strong>Crowdsourcing</strong> noun crowd·sourc·ing \ ˈkrau̇d-ˌsȯr-siŋ \<br/>
+The practice of obtaining needed services, ideas, or content by soliciting contributions from a large group of people and especially from the online community rather than from traditional employees or suppliers.
+<br/><br/><sup><a href="https://www.merriam-webster.com/dictionary/crowdsourcing" target="_blank">Courtesy Merrium-Webster's dictionary online</a>.</sup>
+</p>
+
+The goal of this project is to explore the power of crowdsourced data, and the ethics of collecting it, through the lens of a specific web application which collects data in this way.
+
 The Restroom Review (RR) website allows users to find and rate public restrooms near them. By browsing to the site on a mobile device, and allowing the site to use their location, they can see restrooms around them that have been reported and rated/reviewed by other users. Users can sort the restrooms by distance or rating, and they can also leave reviews or ratings themselves. If they've found a restroom that has not previously been reported, they can submit it to the site. 
 
-Crowdsourced data powers the site - it is only as strong as it's user base. The Restroom Review project is an investigation into the power of crowdsourced data, including an exploration on what it takes to build a strong repository of data, as well as to understand any ethical concerns surrounding the use of crowdsourced data.
+This poses interesting ethical question, though. Consider the case where a user posts a restroom which is not public, or which is not known to be explictly public. Or, what happens when a particular business owner has a public restroom onsite, but after increased visibility due to the website, decides to restrict its use to paying customers only? 
 
 ## Specific Aims
+- Investigate literature surroudning the collection of crowdsourced data.
+- Investigate attitudes surrounding collection of crowdsourced data.
 - Build a functional Restroom Review site that allows users to find and submit known public restrooms to the site database, as well as leave ratings or reviews for those restrooms.
 - Build a user base of people who regularly access the site, in order to collect crowdsourced data that other users can utilize.
-- Understand ethical concerns about crowdsourcing data in this fashion
+- Understand ethical concerns about crowdsourcing data in this fashion.
 
-## Project Site Requirements
-- The RR site MUST allow a Visitor to authenticate themselves before leaving a review.
-- The RR site MUST allow a Visitor to search for restrooms near a location.
-- The RR site MUST allow a Visitor to share their location with the site and use it to search for restrooms.
-- The RR site MUST NOT require a Visitor to share their location or any other personal information.
-- The RR site MUST allow a Visitor to view a list of nearby restrooms.
-- The RR site MUST allow a Visitor to sort the list of nearby restrooms by distance AND/OR by rating.
-- The RR site MUST allow a Logged-in User to leave a review for a restroom.
-- The RR site MUST allow a Logged-in User to leave a rating for a restroom.
-- The RR site MUST allow a Logged-in User to leave a review OR rating anonymously.
-- The RR site MUST allow a Logged-in User to delete the reviews they've written.
-- The RR site SHOULD allow a Logged-in User to view the reviews they've written.
-- The RR site SHOULD allow a Logged-in User to edit the reviews they've written.
+## Investigating Attitudes
+In order to investigate attitudes towards crowdsourced review data, and towards a Restroom Review site like mine, I have put together [a survey](https://goo.gl/forms/0scHG2YhYkEXqbry2){:target="_blank"} which I plan to pilot test and administer. For convenience I've copied the questions below:
 
-## Use Cases
-![](/assets/img/use-case-diagram.png)
+None of the responses are required.
+
+1. Demographic: Gender
+1. Demographic: Age
+1. How often do you contribute to crowdsourced data, e.g. leaving a review for a product, reviewing a restaurant, reviewing an app, etc?
+1. How often do you access crowdsourced data, e.g. reading reviews for a product, reading reviews for a restaurant, reading reviews for an app, etc?
+1. For each of the following, rate your level of agreement
+  - I consider reviews to be crowdsourced data
+  - I never leave reviews for anything unless I have a problem
+  - I look at reviews for products even when I'm shopping in a store
+  - Reviews are the primary factor in determining what I buy and which restaurants I go to
+  - I don't think reviews are very helpful
+  - I don't trust reviews to always be factual or genuine
+  - I have been dishonest in a review that I've left
+  
+(Now imagine that there is a website that lets you review and look at reviews for restrooms on the Northeastern Campus.)
+1. What is the likelihood you would use such a site?
+1. How often would you use such a site?
+1. When reading a review for a restroom, what factors would you consider highly?

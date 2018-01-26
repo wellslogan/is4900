@@ -81,6 +81,14 @@ The authors suggest that a potential way to make bridge the gap would be to offe
 ### Lessons learned from the design, implementation, and management of a smartphone-based crowdsourcing system
 **[Andriano Faggiani, Enrico Gregori et al, ACM, 2013](https://dl.acm.org/citation.cfm?id=2536717){:target="_blank"}**
 
+In this papers the authors built an app called Portolan, which uses crowdsourced information from its users to build and measure the internet and other networks in order to build internet topologies. The authors step through the creation of this app and talk about the lessons they learned from sourcing data from the crowd. 
+
+Some of the issues they discuss apply more to the specific application architecture they decided to go with - for example, an issue with their Android app where users weren't updating to the latest versions. This isn't really applicable to a website, since a website is non-versioned and cross-platform by nature. 
+
+A few other things the authors touch on are applicable, however. They mention the need for a solid database backbone from the beginning, since with their project they quickly had to scale their database-end in order to meet the needs of their growing user base. There are more algorithms in place for the Portolan app that make this more difficult then say, a review website, but the advice is still solid.
+
+Another issue they ran into was motivating users to actually use their app. Since the end result of the user's direct interaction with the app was not that motivating (since it was only looking at the bigger picture that would cause the network topologies to come together), they added some basic network tools that the users could use while also providing the crucial crowdsourced data to the app. Motivation is something that I am somewhat concerned about, although a review website has the benefit of being a source of information for users, so they at least have a reason to visit the site. 
+
 [Contents &#x21a9;&#xfe0e;](#contents)
 
 ### Eliminating Spammers and Ranking Annotators for Crowdsourced Labeling Tasks

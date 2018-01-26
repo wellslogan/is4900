@@ -117,3 +117,7 @@ Example:
 }
 ```
 
+### External APIs Used
+Firebase will be used to authenticate users using Google as an identity provider.
+
+Additionally, several location-based APIs will be utilized. Firstly the browser/mobile platform APIs will be used to requesting and seeing the user's location, to better help them find nearby restrooms. Secondly, the Google Maps embed API will be used to display a map with restroom locations on it. Finally, the Google Distance Matrix API will be used to calculate distances and directions between a user's location and a destination restroom. 

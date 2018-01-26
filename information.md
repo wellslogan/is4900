@@ -19,11 +19,12 @@ menu: true
 
 order: 3
 ---
+The Restroom Review (RR) site will collect and provide crowdsourced data on public restrooms (initially limited to just those at Northeastern University in Boston, MA). The site will allow authenticated users (authenticated using Google as an identity provider - see [User Authentication](#user-authentication)) to identify and submit reviews for restrooms on campus. Unauthenticated users will be able to view reviews but must authenticate before they can leave reviews or ratings of their own. 
 
-## Project Description
-The goal of the Restroom Review (RR) site is to collect and provide crowdsourced data on public restrooms (initially limited to just those at Northeastern University in Boston, MA). The site will allow authenticated users (authenticated using Google as an identity provider - see [User Authentication](#user-authentication)) to identify and submit reviews for restrooms on campus. Unauthenticated users will be able to view reviews but must authenticate before they can leave reviews or ratings of their own.
-
-A secondary goal of this project is an exploration into the feasibility of broadening the focus of the site to more than just the Northeastern University campus. Additionally, the ethics of using crowdsourced data in general will be explored. 
+Realtionships between the different objects that are a part of this project:
+<br/><br/>
+![](/assets/img/relationships.png)
 
 ## UML Class Diagram
+A more specific class diagram for the RR Site.
 ![](/assets/img/uml.png)
