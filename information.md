@@ -25,6 +25,6 @@ Realtionships between the different objects that are a part of this project:
 <br/><br/>
 ![](/assets/img/relationships.png)
 
-## UML Class Diagram
-A more specific class diagram for the RR Site.
+## Class Diagram
+A UML class diagram modelling the data involved in the RR site.
 ![](/assets/img/uml.png)
